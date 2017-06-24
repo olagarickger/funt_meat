@@ -61,14 +61,25 @@ body {
 .red-menu > li > a {
     color: #fff;
     font-family: "GothamProBold";
-    padding: 15px 5px;
+    padding: 0 5px;
     font-size: 10px;
-    line-height: 12px;
-    min-height: 54px;
+    line-height: 1;
+    height: 50px;
+    display: inline-table;
+    width: 100%;
+}
+.red-menu > li > a > div {
+    display: inline-table;
+    vertical-align: middle;
+    padding: 20px 0;
+}
+.red-menu > li:hover,
+.red-menu > li:focus {
+    background: #da3632;;
 }
 .red-menu > li > a:hover,
 .red-menu > li > a:focus {
-    background-color: #da3632;
+    background: none;
 }
 
 /* search-top */
