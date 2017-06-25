@@ -45,6 +45,13 @@ body {
 }.navbar_fon {
     background: #262626;
  }
+.navbar-default .navbar-nav > li > a {
+    color: #fffafa;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus{
+    color: #827d7d;
+}
  .red_fon {
      background: #e53935;
  }
@@ -55,7 +62,7 @@ body {
 .red-menu > li {
     border-right: 1px solid #bc0400;
 }
-.red-menu > li.nonborder {
+.red-menu > li:last-child{
      border-right: none;
  }
 .red-menu > li > a {
@@ -367,3 +374,34 @@ body {
 }.test-class {
     color: #da3632;
 }
+.cont > .col-md-12 > .red_price {
+padding: 0;
+}
+.red_price {
+    background-color:#da3632;
+    border-radius: 10px;
+    text-align: center;
+}
+/*beef*/
+.recipe {
+    padding: 0;
+}
+.recipe > li {
+    border-bottom: 2px dotted #b0bec5;
+    text-align: right;
+    list-style: none;
+    font-size: 14px;
+}
+.recipe > li > .l, .recipe > li > .r {
+    background-color: #fff;
+    position:relative; top: 5px;
+}
+.recipe > li > .r {
+    padding-left: 3px;
+}
+.recipe > li > .l {
+    float: left;
+    padding-right: 3px;
+}
+/*beef*/
+
