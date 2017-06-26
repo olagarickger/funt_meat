@@ -404,4 +404,17 @@ padding: 0;
     padding-right: 3px;
 }
 /*beef*/
+/*home_page*/
+.mybutton {
+    position:absolute;
+    top: 40%;
+    margin-left: 20px;
+display:none;
+}
+.mybutton:hover{
+    display: block;
+}
+.img-responsive:hover .mybutton{
+    display:block;
 
+}
