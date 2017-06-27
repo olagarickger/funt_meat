@@ -447,6 +447,7 @@ color: #c0080b;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+
 }
 .mybutton:hover, .img-responsive:hover .mybutton{
     opacity: 1;
@@ -463,4 +464,26 @@ font-size: 34px;
     border: none;
     font-size: 14px;
     border-radius: 40px;
+}
+.img-categories > img{
+border-radius: 10px;
+    border: solid #fff;
+
+}
+.img-categories > p {
+    font-size: 16px;
+    font-family: "GothamProBold";
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.grey-fon {
+    background-color: #050505;
+}
+.cont1 {
+    background: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    display: inline-block;
+    width: 100%;
 }
