@@ -405,6 +405,37 @@ padding: 0;
 }
 /*beef*/
 /*home_page*/
+/*header block*/
+.header_block{
+    color: #fff;
+    margin-top: 109px;
+    margin-bottom: 239px;
+}
+.header_block > .a {
+    font-size: 16px;
+    font-weight: 600;
+}
+.header_block > .b {
+font-size: 135px;
+    font-family: "GothamProBold";
+    margin-top: -36px;
+    margin-bottom: -42px;
+}
+.header_block > .b >span {
+color: #c0080b;
+}
+.header_block > .c {
+    font-size: 26px;
+    margin-bottom: 38px;
+    margin-top: 40px;
+}
+.header_block > .d {
+    background-color: #c0080b;
+    padding: 15px 36px;
+    border: none;
+    font-family: "GothamProBold";
+}
+/*Product categories*/
 .mybutton {
     position: absolute;
     top: calc(50% - 23px);
@@ -420,33 +451,16 @@ padding: 0;
 .mybutton:hover, .img-responsive:hover .mybutton{
     opacity: 1;
 }
-/*header block*/
-.header_block{
-    color: #fff;
-    margin-top: 109px;
-    margin-bottom: 239px;
+.Product_categories > .a > p {
+font-size: 34px;
 }
-.header_block > .a {
-    font-size: 16px;
-    font-weight: 600;
+.Product_categories > .a > p > span {
+    font-family: "GothamProBold"
 }
-.header_block > .b {
-font-size: 135px;
-    font-family: "GothamProBold";
-    margin-top: -42px;
-    margin-bottom: -42px;
-}
-.header_block > .b >span {
-color: #c0080b;
-}
-.header_block > .c {
-    font-size: 26px;
-    margin-bottom: 40px;
-    margin-top: 40px;
-}
-.header_block > .d {
+.Product_categories > .b > .d {
     background-color: #c0080b;
-    padding: 15px 36px;
+    padding: 7px 25px;
     border: none;
-    font-family: "GothamProBold";
+    font-size: 14px;
+    border-radius: 40px;
 }
