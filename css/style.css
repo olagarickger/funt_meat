@@ -327,14 +327,14 @@ body {
 .row-left {
     margin-left: -15px;
 }
-.shop-cart-big > .b .m .p > div > div > span {
+.shop-cart-big > div > .b .m .p > div > div > span {
     font-size: 32px;
     font-family: "GothamProBold";
 }
-.shop-cart-big > .b .m .p > div > div > span > i {
+.shop-cart-big > div > .b .m .p > div > div > span > i {
     font-size: 23px;
 }
-.shop-cart-big > .b .m .p {
+.shop-cart-big > div > .b .m .p {
     padding: 0 15px;
     display: flex;
 }
@@ -352,7 +352,7 @@ body {
 .n {
     border: none;
 }
-.shop-cart-big > .b > .m > button {
+.shop-cart-big > div > .b > .m > button {
     padding: 6px 7px;
     font-size: 6px;
     color: #fff;
@@ -360,25 +360,28 @@ body {
     background-color: #b3b3b3;
     margin: 25px 10px;
 }
-.shop-cart-big > .b > .m > span {
+.shop-cart-big > div > .b > .m > span {
     font-size: 12px;
     font-family: "GothamProBold";
     margin: 25px 10px;
 }
-.shop-cart-big > .b > .z {
+.shop-cart-big > div > .b > .z {
     font-size: 15px;
     font-family: "GothamProBold";
     margin-top: 20px;
 }
-.shop-cart-big {
+.shop-cart-big > div  {
     border: 1px solid #bfbfbf;
     border-radius: 10px;
     text-align: center;
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
-.shop-cart-big:hover {
+.shop-cart-big > div:hover {
     border: 3px solid #c0080b;
+}
+.shop-cart-big {
+	min-height: 410px;
 }
 .title-cont {
     font-size: 24px;
@@ -546,6 +549,9 @@ font-size: 34px;
     font-family: "GothamProBold";
     color: #7d7d7d;
 }
+.our_company >.b > div > img {
+	width: 100%;
+}
 .our_company >.a > div > a:hover {
     background-color: #c0080b ;
     color: #fff;
@@ -553,4 +559,5 @@ font-size: 34px;
 .our_company {
     border:#7d7d7d solid 1px;
     border-radius: 10px;
+	display: flex;
 }
