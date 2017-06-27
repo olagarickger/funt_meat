@@ -327,12 +327,16 @@ body {
 .row-left {
     margin-left: -15px;
 }
-.shop-cart-big > .b .m .p > span {
+.shop-cart-big > .b .m .p > div > div > span {
     font-size: 32px;
     font-family: "GothamProBold";
 }
-.shop-cart-big > .b .m .p > span > i {
+.shop-cart-big > .b .m .p > div > div > span > i {
     font-size: 23px;
+}
+.shop-cart-big > .b .m .p {
+    padding: 0 15px;
+    display: flex;
 }
 .form-control1 {
     width: 35%;
@@ -349,7 +353,7 @@ body {
     border: none;
 }
 .shop-cart-big > .b > .m > button {
-    padding: 6px 6px;
+    padding: 6px 7px;
     font-size: 6px;
     color: #fff;
     border-radius: 43px;
@@ -371,6 +375,10 @@ body {
     border-radius: 10px;
     text-align: center;
     padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.shop-cart-big:hover {
+    border: 3px solid #c0080b;
 }
 .title-cont {
     font-size: 24px;
@@ -446,12 +454,14 @@ color: #c0080b;
 .Product_categories > .a > p {
 font-size: 34px;
 }
+
 .Product_categories > .a > p > span {
-    font-family: "GothamProBold"
+    font-family: "GothamProBold";
+
 }
 .Product_categories > .b > .d {
     background-color: #c0080b;
-    padding: 7px 25px;
+    padding: 10px 15px;
     border: none;
     font-size: 14px;
     border-radius: 40px;
@@ -479,8 +489,12 @@ font-size: 34px;
     top: 0;
     left: 0;
 }
-.img-categories > .t > .f:hover, .img-categories:hover .f {
+.img-categories > .t > .f:hover,
+.img-categories:hover .f {
     background: rgba(0, 0, 0, 0.6);
+}
+.img-categories:hover p {
+    color: #c0080b;
 }
 .img-categories > p {
     font-size: 16px;
@@ -509,8 +523,34 @@ font-size: 34px;
 }
 .cont1 {
     background: #ffffff;
-    margin-top: 15px;
-    margin-bottom: 40px;
+
+    padding: 15px;
     display: inline-block;
     width: 100%;
+}
+.cont1-margin-bottom {
+    margin-bottom: 40px;
+}
+.our_company >.a > p {
+    font-size:16px ;
+    font-family: "GothamProRegular";
+    text-decoration: none;
+}
+.our_company >.a > p >span {
+    font-size:36px ;
+    font-family: "GothamProBold";
+}
+.our_company >.a > div > a {
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: "GothamProBold";
+    color: #7d7d7d;
+}
+.our_company >.a > div > a:hover {
+    background-color: #c0080b ;
+    color: #fff;
+}
+.our_company {
+    border:#7d7d7d solid 1px;
+    border-radius: 10px;
 }
