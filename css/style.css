@@ -406,15 +406,47 @@ padding: 0;
 /*beef*/
 /*home_page*/
 .mybutton {
-    position:absolute;
-    top: 40%;
-    margin-left: 20px;
-display:none;
+    position: absolute;
+    top: calc(50% - 23px);
+    text-align: center;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
-.mybutton:hover{
-    display: block;
+.mybutton:hover, .img-responsive:hover .mybutton{
+    opacity: 1;
 }
-.img-responsive:hover .mybutton{
-    display:block;
-
+/*header block*/
+.header_block{
+    color: #fff;
+    margin-top: 109px;
+    margin-bottom: 239px;
+}
+.header_block > .a {
+    font-size: 16px;
+    font-weight: 600;
+}
+.header_block > .b {
+font-size: 135px;
+    font-family: "GothamProBold";
+    margin-top: -42px;
+    margin-bottom: -42px;
+}
+.header_block > .b >span {
+color: #c0080b;
+}
+.header_block > .c {
+    font-size: 26px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.header_block > .d {
+    background-color: #c0080b;
+    padding: 15px 36px;
+    border: none;
+    font-family: "GothamProBold";
 }
