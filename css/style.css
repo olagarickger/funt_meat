@@ -27,7 +27,6 @@ body {
 }
 .fon_wood {
     background-image: url(../images/site/fon_wood.jpg);
-    background-size: contain;
     background-repeat: repeat-y;
     background-position: center;
 }
@@ -156,7 +155,7 @@ body {
     height: 61px;
     position: relative;
 }
-.shop-cart > .c {
+.shop-cart > .a > .c {
     background: url("../images/site/shop_cart.png") 0 0 no-repeat;
     height: 100%;
     width: 100%;
@@ -666,3 +665,17 @@ font-size: 34px;
     margin-left: 11px;
 }
 /* special_offers */
+/*stocks*/
+.stocks {
+    padding-bottom: 15px;
+
+}
+.stocks > a {
+    border: #fff 1px solid;
+    border-radius: 8px;
+}
+
+.basket_dropdown {
+    min-width: 440px;
+    margin-left: -409px;
+}
