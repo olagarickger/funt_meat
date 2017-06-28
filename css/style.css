@@ -588,35 +588,69 @@ font-size: 34px;
     right: 15px;
     position: absolute;
 }
-.our_company >.a {
+.our_company > .a {
     position: relative;
     margin-top: 40px;
 }
-.special_offers >.a > .offers >  .b >p {
+
+/* special_offers */
+.special_offers {
+    display: inline-table;
+}
+.special_offers > .a {
+    margin-bottom: 15px;
+}
+.special_offers > .a > .offers >  .b > p {
     font-size:26px ;
     font-family: "GothamProBold";
     line-height: 23px;
 }
-.special_offers > .a >.offers >  .b >p > .d {
+.special_offers > .a > .offers >  .b > p > .d {
     font-size:16px ;
     font-family: "GothamProRegular";
-
+    color: #626262;
 }
-.special_offers > .a >.offers > .b > p > .e {
+.special_offers > .a > .offers > .b > p > .e {
     font-size:26px ;
     color: #E53935;
-
-
 }
- .offers {
-    border: 1px solid  #7d7d7d;
-    border-radius: 10px;
-     min-height: 300px;
+.special_offers > .a > .offers {
+     border: 1px solid  #7d7d7d;
+     border-radius: 10px;
+     min-height: 280px;
+    overflow: hidden;
+    position: relative;
 }
-.special_offers >  .a .offers > .b > .c {
+.special_offers > .a .offers > .b {
+    z-index: 1;
+    position: relative;
+}
+.special_offers > .a > .offers > button {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+.special_offers > .a .offers > .b > .c {
     font-size: 16px;
-    background-color:#E53935 ;
+    background-color:#E53935;
 }
-.special_offers >.a > .offers >  .b {
+.special_offers > .a > .offers > .b > p {
     margin-top: 30px;
 }
+.special_offers > .a > .offers > .bb {
+    overflow: hidden;
+    position: inherit;
+}
+.special_offers > .a > .offers > img.big {
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+.special_offers > .a > .offers > img.small {
+    position: absolute;
+    max-height: 100%;
+    right: 15px;
+    bottom: 15px;
+    z-index: 0;
+}
+/* special_offers */
