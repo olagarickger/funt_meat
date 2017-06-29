@@ -155,7 +155,7 @@ body {
     height: 61px;
     position: relative;
 }
-.shop-cart > .a > .c {
+.shop-cart > .c {
     background: url("../images/site/shop_cart.png") 0 0 no-repeat;
     height: 100%;
     width: 100%;
@@ -676,6 +676,54 @@ font-size: 34px;
 }
 
 .basket_dropdown {
-    min-width: 440px;
-    margin-left: -409px;
+    min-width: 416px;
+    margin-left: -297px;
+    margin-top: 40px;
+}
+.basket_dropdown > div > img {
+
+}
+.basket_dropdown  > p{
+font-size: 16px;
+}
+.shopping-basket > div > .t > p {
+    color: #92A0A9;
+}
+.shopping-basket > div > .t > span {
+    color: #273238;
+}
+.shopping-basket > div > .p > span {
+    color: #28343A;
+    font-size: 18px;
+    font-family: "GothamProBold";
+    line-height: 70px;
+}
+.shopping-basket > div > .p > span >i {
+    font-size: 15px;
+    line-height: 70px;
+}
+.shopping-basket > div > .c > a {
+    color: #B3B3B3;
+    line-height: 70px;
+}
+.basket_dropdown_btn > .b > p {
+font-size: 16px;
+    font-family: "GothamProBold";
+}
+.basket_dropdown_btn > .b > span {
+    font-size: 32px;
+    font-family: "GothamProBold";
+}
+.basket_dropdown_btn > .b > span > i {
+    font-size: 22px;
+}
+.basket_dropdown_btn > .c  > div > button {
+    background-color: #E43935;
+    border-radius: 20px;
+}
+.basket_dropdown_btn {
+    padding-top: 20px;
+}
+.basket_dropdown_btn > .c > div {
+    line-height: 70px;
 }
