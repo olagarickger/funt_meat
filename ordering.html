@@ -218,12 +218,15 @@
             <h2>Оформление заказа:</h2>
         </div>
         <div class="container_for_ordering">
-            <div>
-                <h2>Данные заказа</h2>
-                <p> Сумма заказа:
+            <div class="col-md-12">
+            <div class="order_data">
+                <h3>Данные заказа</h3>
+                <p> Сумма заказа: </p>
                     <span>490 <i class="glyphicon glyphicon-ruble"></i></span>
-                </p>
+
             </div>
+            </div>
+
             <div>
                 <div class="col-md-5">
                     <div class="delivery_address">
@@ -231,7 +234,7 @@
                         <span> * - поля, обязательные для заполнения</span>
                         <form role="form">
                             <div class="form-group">
-                                <input name="adress" type="text"  class="form-control" placeholder="Город, улица, номер дома *"/>
+                                <input name="adress" type="text"  class="form-control class_for_input" placeholder="Город, улица, номер дома *"/>
                             </div>
                             <div class="form-group">
                                 <label>
@@ -239,10 +242,10 @@
                                 </label>
                             </div>
                             <div class="form-group">
-                                <input name="adress" type="text"  class="form-control" placeholder="Квартира или офис*"/>
+                                <input name="adress" type="text"  class="form-control class_for_input" placeholder="Квартира или офис*"/>
                             </div>
                                 <div class="form-group">
-                                <input name="adress" type="text"  class="form-control" placeholder="Подъезд/этаж"/>
+                                <input name="adress" type="text"  class="form-control class_for_input" placeholder="Подъезд/этаж"/>
                             </div>
                         </form>
                     </div>
@@ -252,8 +255,7 @@
             <div class="col-md-7">
                 <form role="form">
                     <div class="form-group">
-                        <textarea class="form-control" rows="3">Комментарий дя курьера,чтобы он быстро Вас нашел. Особенности подъезда, домофон,кодовый замок... Все что может помочь
-                        курьеру в поиске Вашего дома и квартиры.</textarea>
+                        <textarea class="form-control class_for_input" rows="8" placeholder=> Комментарий для курьера,чтобы он быстро Вас нашел. Особенности подъезда, домофон,кодовый замок... Все что может помочь курьеру в поиске Вашего дома и квартиры.</textarea>
 
                     </div>
                 </form>
@@ -270,26 +272,26 @@
                     <span> * - поля, обязательные для заполнения</span>
                     <form role="form">
                         <div class="form-group">
-                            <input name="adress" type="text"  class="form-control" placeholder="Фамилия, имя и отчество *"/>
+                            <input name="adress" type="text"  class="form-control class_for_input" placeholder="Фамилия, имя и отчество *"/>
                         </div>
                         <div class="form-group">
-                            <input name="name" type="text"  class="form-control" placeholder="Дата рождения"/>
+                            <input name="name" type="text"  class="form-control class_for_input" placeholder="Дата рождения"/>
                         </div>
                         <div class="form-group">
-                            <select class=" select2">
+                            <select class=" select2 ">
                                 <option value="gender">Пол</option>
                                 <option value="male">Мужской</option>
                                 <option value="female">Женский</option>
                             </select>
                         </div>
                             <div class="form-group">
-                                <input name="phone" type="text"  class="form-control" placeholder="Номер телефона *"/>
+                                <input name="phone" type="text"  class="form-control class_for_input" placeholder="Номер телефона *"/>
                             </div>
                             <div class="form-group">
-                                <input name="email" type="text"  class="form-control" placeholder="Адрес электронной почты *"/>
+                                <input name="email" type="text"  class="form-control class_for_input" placeholder="Адрес электронной почты *"/>
                             </div>
                             <div class="form-group">
-                                <select class="select2">
+                                <select class="select2 ">
                                     <option value="gender">Способ оплаты</option>
                                     <option value="male">Мужской</option>
                                     <option value="female">Женский</option>
@@ -302,10 +304,28 @@
                 <form role="form">
                     <div class="form-group">
 
-                        <textarea class="form-control" rows="3">Дополнительный комментарий к заказу: например,
-                            чтобы курьер не звонил в дверь и не разбудил детей</textarea>
+                        <textarea class="form-control class_for_input" rows="8">Дополнительный комментарий к заказу: например, чтобы курьер не звонил в дверь и не разбудил детей</textarea>
                     </div>
                 </form>
+            </div>
+            <div class="col-md-12">
+                <div class="col-md-7">
+                    <div class="totals">
+                        <strong>Итого</strong>
+                            <p>Сумма заказа:<strong> 4535 руб.</strong></p>
+                            <p>Доставка:<strong> 230 pуб.</strong></p>
+
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="to_pay">
+                        <div class="col-md-7"><p class="text-right"> К оплате:<span> 2 456 руб.</span></p></div>
+                        <div class="col-md-5"><button type="button" class="btn btn-danger text-right">Оформить заказ</button></div>
+
+
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
