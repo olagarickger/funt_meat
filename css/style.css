@@ -679,12 +679,45 @@ font-size: 34px;
     min-width: 416px;
     margin-left: -297px;
     margin-top: 40px;
-}
-.basket_dropdown > div > img {
+    border-top: 3px solid #fff;
+    -moz-border-radius: 5px;
+    position: relative;
+    padding: 5px;
+    width: 300px;
+    text-align: center;
 
+}
+.basket_dropdown .angle{
+    position: absolute;
+    top: -80px;
+    right: 9%;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+}
+.basket_dropdown .angle:after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 70px;
+    left: 20px;
+    -webkit-box-shadow: -1px -1px 10px -2px rgba(0,0,0,0.5);
+    -moz-box-shadow: -1px -1px 10px -2px rgba(0,0,0,0.5);
+    -o-box-shadow: -1px -1px 10px -2px rgba(0,0,0,0.5);
+    box-shadow: -1px -1px 10px -2px rgba(0,0,0,0.5);
+}
+.basket_dropdown > div >  {
+border-bottom: 1px solid;
 }
 .basket_dropdown  > p{
 font-size: 16px;
+    text-align: left;
 }
 .shopping-basket > div > .t > p {
     color: #92A0A9;
@@ -726,4 +759,24 @@ font-size: 16px;
 }
 .basket_dropdown_btn > .c > div {
     line-height: 70px;
+}
+.color_of_a {
+color:#262626 ;
+}
+.color_of_a:hover,.color_of_a:active {
+    color:#262626 ;
+}
+
+/*ordering*/
+
+
+
+
+.container_for_ordering{
+    background: #ffffff;
+    display: inline-block;
+    width: 100%;
+}
+.delivery_address {
+
 }
