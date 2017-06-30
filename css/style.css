@@ -771,17 +771,98 @@ color:#262626 ;
 
 
 
-
 .container_for_ordering{
     background: #ffffff;
     display: inline-block;
     width: 100%;
+    padding: 15px;
 }
-.delivery_address {
+.order_data {
+border-bottom: solid 2px;
+    padding-bottom: 30px;
+}
+.order_data > h3 {
+    margin-bottom: 25px;
 
+}
+.order_data > p{
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.order_data > span {
+    font-size: 32px;
+    color: #E53836;
+    font-family: "GothamProBold";
+}
+.order_data > span > i {
+    font-size: 24px;
+}
+.delivery_address > p {
+    font-size: 16px;
+    font-family: "GothamProBold";
+}
+.delivery_address > span {
+    font-size: 14px;
+    color: #ADADAD;
+}
+.class_for_input {
+    font-size: 12px;
+    border-radius: 20px;
 }
 /* select2 */
 .select2-container {
     width: 100%!important;
 }
+textarea.form-control {
+    width: 400px;
+    margin-top: 81px;
+}
+.delivery_address {
+    border-bottom: solid 2px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.delivery_time > p {
+    font-size:16px ;
+    font-family: "GothamProBold";
+}
+.delivery_time > span {
+    font-size:24px;
+}
+.delivery_time > span > a {
+    font-size:14px ;
+    color: #E53836;
+}
+.delivery_time {
+    border-bottom: solid 2px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.totals {
+    font-size: 16px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+strong {
+    font-family: "GothamProBold";
+}
+.to_pay > div > p {
+font-size: 18px;
+    line-height: 74px;
+}
+.to_pay  > div > p > span {
+    color: #E53836;
+    font-family: "GothamProBold";
+}
+.to_pay  > div > button {
+    border-radius: 20px;
+    background: #E53836;
+    margin-top: 18px;
+}
+.to_pay {
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
 /* select2 */
