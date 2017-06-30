@@ -9,6 +9,8 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- select2 -->
+    <link href="css/select2/select2.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
 
@@ -213,7 +215,7 @@
             </ol>
         </div>
         <div class="aboutcompany">
-            <h2>Оформление заказа</h2>
+            <h2>Оформление заказа:</h2>
         </div>
         <div class="container_for_ordering">
             <div>
@@ -230,10 +232,16 @@
                         <form role="form">
                             <div class="form-group">
                                 <input name="adress" type="text"  class="form-control" placeholder="Город, улица, номер дома *"/>
+                            </div>
+                            <div class="form-group">
                                 <label>
                                     <input type="checkbox"> Это частный дом
                                 </label>
+                            </div>
+                            <div class="form-group">
                                 <input name="adress" type="text"  class="form-control" placeholder="Квартира или офис*"/>
+                            </div>
+                                <div class="form-group">
                                 <input name="adress" type="text"  class="form-control" placeholder="Подъезд/этаж"/>
                             </div>
                         </form>
@@ -244,8 +252,9 @@
             <div class="col-md-7">
                 <form role="form">
                     <div class="form-group">
-                        <input name="adress" type="text"  class="form-control" placeholder="Комментарий дя курьера,чтобы он быстро Вас нашел. Особенности подъезда, домофон,кодовый замок... Все что может помочь
-                        курьеру в поиске Вашего дома и квартиры. *" />
+                        <textarea class="form-control" rows="3">Комментарий дя курьера,чтобы он быстро Вас нашел. Особенности подъезда, домофон,кодовый замок... Все что может помочь
+                        курьеру в поиске Вашего дома и квартиры.</textarea>
+
                     </div>
                 </form>
             </div>
@@ -254,6 +263,49 @@
                     <p>Время и дата доставки:</p>
                     <span> 8 июня, с 11:00 до 13:00 <a href="#">Сменить время </a> </span>
                 </div>
+            </div>
+            <div class="col-md-5">
+                <div class="delivery_address">
+                    <p>Информация о получателе:</p>
+                    <span> * - поля, обязательные для заполнения</span>
+                    <form role="form">
+                        <div class="form-group">
+                            <input name="adress" type="text"  class="form-control" placeholder="Фамилия, имя и отчество *"/>
+                        </div>
+                        <div class="form-group">
+                            <input name="name" type="text"  class="form-control" placeholder="Дата рождения"/>
+                        </div>
+                        <div class="form-group">
+                            <select class=" select2">
+                                <option value="gender">Пол</option>
+                                <option value="male">Мужской</option>
+                                <option value="female">Женский</option>
+                            </select>
+                        </div>
+                            <div class="form-group">
+                                <input name="phone" type="text"  class="form-control" placeholder="Номер телефона *"/>
+                            </div>
+                            <div class="form-group">
+                                <input name="email" type="text"  class="form-control" placeholder="Адрес электронной почты *"/>
+                            </div>
+                            <div class="form-group">
+                                <select class="select2">
+                                    <option value="gender">Способ оплаты</option>
+                                    <option value="male">Мужской</option>
+                                    <option value="female">Женский</option>
+                                </select>
+                            </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <form role="form">
+                    <div class="form-group">
+
+                        <textarea class="form-control" rows="3">Дополнительный комментарий к заказу: например,
+                            чтобы курьер не звонил в дверь и не разбудил детей</textarea>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -316,5 +368,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<!-- select2 -->
+<script src="js/select2/select2.full.min.js"></script>
+<!-- custom -->
+<script src="js/custom.js"></script>
 </body>
 </html>
