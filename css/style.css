@@ -31,8 +31,11 @@ body {
     background-position: center;
 }
 hr {
-    border: solid 1px #c2c1c1;
+    border-top: solid 1px #c2c1c1;
     clear: both
+}
+h3 {
+    margin-top: 5px;
 }
 .w {
     padding-top: 40px;
@@ -267,7 +270,7 @@ hr {
 .cont {
     background: #ffffff;
     border-radius: 10px;
-    padding: 30px 20px;
+    padding: 30px 15px;
     margin-top: 15px;
     margin-bottom: 40px;
     display: inline-block;
@@ -423,7 +426,7 @@ padding: 0;
     background-color:#da3632;
     border-bottom-right-radius: 10px;
     text-align: center;
-    margin-top: -50px;
+    margin-top: -30px;
     border-bottom-left-radius: 10px;
     color: #ffffff;
     padding-top: 30px;
@@ -443,6 +446,7 @@ font-size: 25px;
 }
 .products img {
     margin-bottom: 40px;
+    border-radius: 10px;
 }
 .pluss {
     border-radius: 30px;
