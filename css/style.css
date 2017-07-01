@@ -296,6 +296,8 @@ hr {
     background: #ffffff;
     width: 100%;
     border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 12px;
+    margin-top: 18px;
 }
 .shopping-basket > .p > s {
     color: #ababab;
@@ -306,10 +308,15 @@ hr {
     font-size: 32px;
     font-family: "GothamProBold";
 }
+.shopping-basket p {
+    font-family: "GothamProBold";
+}
+
 .shopping-basket > .i > a > i {
     font-size: 16px;
     color: #bfbfbf;
     font-weight: 100;
+    margin-right: 15px;
 }
 /* shopping-basket */
 
@@ -320,6 +327,16 @@ hr {
 .order_price > .p {
     font-size: 32px;
     font-family: "GothamProBold";
+}
+.order_price  p {
+    color: #92A0A9;
+    margin-left: 0px;
+}
+.order_price button {
+    border-radius: 20px;
+}
+.order_price i {
+    font-size: 22px;
 }
 /* order_price */
 .thumbnail {
@@ -721,11 +738,35 @@ border-bottom: 1px solid;
 font-size: 16px;
     text-align: left;
 }
+.shopping-basket .c {
+    text-align: left;
+    display: flex;
+    margin-top: 10px;
+}
+.shopping-basket .c > span {
+    line-height: 27px;
+    margin-left: 10px;
+}
 .shopping-basket > div > .t > p {
     color: #92A0A9;
 }
 .shopping-basket > div > .t > span {
     color: #273238;
+}
+.delivery {
+    padding-bottom: 30px;
+}
+.delivery span {
+    font-size: 20px;
+    font-family: "GothamProBold";
+}
+.delivery p {
+    color: #92A0A9;
+    margin-left: 0;
+}
+.delivery button {
+    border-radius: 20px;
+    margin-top: 32px;
 }
 .shopping-basket > div > .p > span {
     color: #28343A;
@@ -733,9 +774,9 @@ font-size: 16px;
     font-family: "GothamProBold";
     line-height: 70px;
 }
-.shopping-basket > div > .p > span >i {
-    font-size: 15px;
-    line-height: 70px;
+.shopping-basket > .p > span >i {
+    font-size: 23px;
+
 }
 .shopping-basket > div > .c > a {
     color: #B3B3B3;
