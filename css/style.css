@@ -179,6 +179,7 @@ hr {
     line-height: 17px;
     font-size: 12px;
 }
+
 .number {
     font-size: 22px;
     font-family: "GothamProBold"
@@ -420,10 +421,51 @@ padding: 0;
 }
 .red_price {
     background-color:#da3632;
-    border-radius: 10px;
+    border-bottom-right-radius: 10px;
     text-align: center;
+    margin-top: -50px;
+    border-bottom-left-radius: 10px;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 25px;
+
 }
+ .red_price p {
+     font-family: "GothamProBold";
+
+     font-size: 38px;
+ }
+.red_price p > i {
+font-size: 25px;
+}
+.red_price div {
+    margin-bottom: 24px;
+}
+.products img {
+    margin-bottom: 40px;
+}
+.pluss {
+    border-radius: 30px;
+    padding: 0px 2px;
+    color:#da3632;
+    font-size: 10px;
+}
+.pluss:hover {
+   background-color:#fff;
+}
+.white_button {
+    border-color: #fff;
+    border-radius: 20px;
+    padding: 8px 50px;
+}
+
 /*beef*/
+.products {
+    text-align: left;
+}
+.white_button:hover {
+    background-color:#fff;
+}
 .recipe {
     padding: 0;
 }
