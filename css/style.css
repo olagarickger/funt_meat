@@ -361,7 +361,6 @@ h3 {
 }
 .shop-cart-big > div > .b .m .p {
     padding: 0 15px;
-    display: flex;
 }
 .form-control1 {
     width: 35%;
@@ -385,6 +384,10 @@ h3 {
     background-color: #b3b3b3;
     margin: 25px 10px;
 }
+.shop-cart-big .t img {
+    width: 100%;
+    height: auto;
+}
 .shop-cart-big > div > .b > .m > span {
     font-size: 12px;
     font-family: "GothamProBold";
@@ -404,9 +407,8 @@ h3 {
     overflow: hidden;
 }
 .shop-cart-big > div:hover {
-    border: 3px solid #c0080b;
-    margin: -2px;
-    display: inline-table;
+    border: 1px solid #c0080b;
+    box-shadow: 0 0 3px #c0080b;
 }
 .shop-cart-big {
 	min-height: 410px;
@@ -1021,4 +1023,28 @@ font-size: 18px;
 .catalog_button a:hover, .catalog_button a:active {
     background-color:#E53836;
     color: #fff;
+}
+
+/* for md */
+@media (max-width: 1366px) {
+    .shop-cart-big {
+        margin-bottom: 20px;
+    }
+}
+/* for sm */
+@media (max-width: 1024px) {
+    .Product_categories > .a > p {
+        font-size: 28px;
+    }
+
+}
+/* for xs */
+@media (max-width: 768px) {
+    .Product_categories > .a > p {
+        font-size: 18px;
+    }
+    .Product_categories > .b > .d {
+        width: 100%;
+        margin-bottom: 15px;
+    }
 }
