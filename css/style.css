@@ -975,3 +975,49 @@ font-size: 18px;
 }
 
 /* select2 */
+.meat_catalog  a{
+    text-decoration: none;
+    color: #0f0f0f;
+    font-size: 12px;
+    font-family: "GothamProBold";
+    line-height: 10px;
+}
+.meat_catalog  a:hover, .meat_catalog  a:active {
+    color: #E53836;
+}
+.meat_catalog  a >span, .meat_catalog  a > span:hover, .meat_catalog  a > span:active {
+    color: #B1B1B1;
+}
+.meat_catalog  a > span:hover, .meat_catalog  a > span:active {
+
+}
+.meat_catalog {
+    margin-left: 0;
+    padding-left: 0;
+}
+.meat_catalog li {
+    list-style-type: none;
+    line-height: 34px;
+}
+.btn_popular .btn {
+    margin-bottom: 15px;
+    border: none;
+    margin-left: 18px;
+}
+.btn_popular .btn:hover, .btn_popular .btn:active, .btn_popular .btn:focus {
+    background: none;
+}
+ .open > .dropdown-toggle.btn-default:hover, .open > .dropdown-toggle.btn-default:active  {
+    background: none;
+    border: none;
+}
+.catalog_button a {
+    border: none;
+    font-family: "GothamProBold";
+    padding: 0px 6px;
+    border-radius: 20px;
+}
+.catalog_button a:hover, .catalog_button a:active {
+    background-color:#E53836;
+    color: #fff;
+}
