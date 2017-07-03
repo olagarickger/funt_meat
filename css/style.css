@@ -213,7 +213,7 @@ h3 {
     font-size: 15px;
     color: #545454;
 }
-.col-md-4 > a {
+.footer-menu > a {
     color: #959595;
     text-decoration: none;
     font-size: 16px;
@@ -405,10 +405,16 @@ h3 {
     padding-bottom: 20px;
     margin-bottom: 20px;
     overflow: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .shop-cart-big > div:hover {
     border: 1px solid #c0080b;
-    box-shadow: 0 0 3px #c0080b;
+    -webkit-box-shadow: 0px 0px 0px 2px rgba(192,8,11,1);
+    -moz-box-shadow: 0px 0px 0px 2px rgba(192,8,11,1);
+    box-shadow: 0px 0px 0px 2px rgba(192,8,11,1);
 }
 .shop-cart-big {
 	min-height: 410px;
@@ -699,10 +705,14 @@ font-size: 34px;
     position: relative;
     margin-left: 11px;
 }
-.special_offers > .a > .offers > button {
-    position: absolute;
+.special_offers > .a > .offers button {
+    /*position: absolute;*/
     bottom: 15px;
     left: 15px;
+    background-color: #E53935;
+    padding: 10px 34px;
+    border-radius: 10px;
+    /*margin-left: 11px;*/
 }
 .special_offers > .a .offers > .b > .c {
     font-size: 16px;
@@ -728,12 +738,6 @@ font-size: 34px;
     z-index: 0;
 }
 
-.offers > .c {
-    background-color: #E53935;
-    padding: 10px 34px;
-    border-radius: 10px;
-    margin-left: 11px;
-}
 /* special_offers */
 /*stocks*/
 .stocks {
@@ -1033,18 +1037,156 @@ font-size: 18px;
 }
 /* for sm */
 @media (max-width: 1024px) {
+    .header_block > .b {
+        font-size: 100px;
+        margin-top: -12px;
+    }
+    .grey-fon {
+        display: grid;
+    }
     .Product_categories > .a > p {
         font-size: 28px;
     }
+    .Product_categories .b  {
+        padding-bottom: 17px;
+    }
 
+    .shop-cart-big > div {
+        text-align: center;
+    }
+    .shop-cart-big .text-left {
+        text-align: inherit;
+    }
+    .shop-cart-big .text-right {
+        text-align: inherit;
+    }
+
+    .offers {
+        text-align: center;
+    }
+    .special_offers > .a .offers > .b {
+        text-align: left;
+    }
+    .special_offers > .a > .offers > img.big {
+        position: relative;
+        width: 100%;
+    }
+
+    .special_offers > .a > .offers > img.small {
+        position: inherit;
+        margin: 0 auto;
+        right: inherit;
+        bottom: inherit;
+
+    }
+
+    .special_offers > .a > .offers  button {
+        position: inherit;
+        width: 100%;
+        margin-bottom: 15px;
+        bottom: 0;
+        left: 0;
+    }
+    .our_company > .b > div > img {
+        position: relative;
+    }
+
+    .our_company > .a > .c {
+        position: initial;
+        display: table;
+        margin: 15px auto;
+    }
+    .our_company {
+        display: inherit;
+    }
+    .our_company > .b > div > img {
+        margin-left: 0;
+    }
+    .footer-menu > a {
+        display: block;
+    }
+    .footer-icon {
+        margin: 0;
+    }
+    .fon_footer .text-right {
+        text-align: inherit;
+    }
+    .footer-phone {
+        float: none;
+    }
 }
 /* for xs */
 @media (max-width: 768px) {
     .Product_categories > .a > p {
         font-size: 18px;
     }
+
     .Product_categories > .b > .d {
         width: 100%;
         margin-bottom: 15px;
+    }
+
+    .header_block > .b {
+        font-size: 60px;
+        margin-top: 15px;
+    }
+
+    .offers {
+        text-align: center;
+    }
+
+    .special_offers > .a > .offers > img.big {
+        position: relative;
+        width: 100%;
+    }
+
+    .special_offers > .a > .offers > img.small {
+        position: inherit;
+        margin: 0 auto;
+        right: inherit;
+        bottom: inherit;
+
+    }
+    .shop-cart-big .text-left {
+        text-align: inherit;
+    }
+    .shop-cart-big .text-right {
+        text-align: inherit;
+    }
+
+    .special_offers > .a > .offers button {
+        position: inherit;
+        width: 100%;
+        margin-bottom: 15px;
+        bottom: 0;
+        left: 0;
+    }
+
+    .our_company > .b > div > img {
+        position: relative;
+    }
+
+    .our_company > .a > .c {
+        position: initial;
+        display: table;
+        margin: 15px auto;
+    }
+    .our_company {
+        display: inherit;
+    }
+    .our_company > .b > div > img {
+        margin-left: 0;
+    }
+    .footer-menu > a {
+        display: block;
+    }
+    .footer-icon {
+        margin: 0;
+    }
+    .fon_footer .text-right {
+        text-align: inherit;
+    }
+    .footer-phone {
+        float: none;
     }
 }
