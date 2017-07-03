@@ -1114,6 +1114,27 @@ font-size: 18px;
     .footer-phone {
         float: none;
     }
+    textarea.form-control {
+        margin-top: 0;
+        width: 100%;
+    }
+    .totals {
+        padding-bottom: 0;
+    }
+    .to_pay .text-right {
+        text-align: inherit;
+    }
+    .to_pay > div > p {
+        line-height: inherit;
+    }
+    .to_pay {
+       padding-top: inherit;
+        margin-left: -15px;
+    }
+    .to_pay > div > button {
+        margin-top: 0;
+        padding: 6px 33px;
+    }
 }
 /* for xs */
 @media (max-width: 768px) {
