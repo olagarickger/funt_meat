@@ -186,6 +186,23 @@ h3 {
     font-size: 12px;
 }
 
+.discount{
+    position: relative;
+    display: table;
+    margin: 0 auto;
+}
+.discount > .y {
+    position: absolute;
+    top: -10px;
+    left: -11px;
+    background: #FF6E41;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    color: #fff;
+}
 .number {
     font-size: 22px;
     font-family: "GothamProBold"
@@ -306,6 +323,9 @@ h3 {
     padding-bottom: 12px;
     margin-top: 18px;
     display: inline-block;
+}
+.shopping-basket > .i {
+    line-height: 70px;
 }
 .shopping-basket > .p > s {
     color: #ababab;
@@ -556,6 +576,11 @@ font-size: 34px;
 }
 .img-categories {
     color: #262626
+}
+.img-categories .btn {
+    border-radius: 30px;
+    background-color: #E53934;
+    padding: 10px 15px;
 }
 .img-categories:hover {
     text-decoration: none;
@@ -808,7 +833,7 @@ border-bottom: 1px solid;
     margin-left: 10px;
 }
 .shopping-basket > .t > p {
-    color: #92A0A9;
+    color: #273238;
 }
 .shopping-basket > .t > span {
     color: #273238;
@@ -830,7 +855,7 @@ border-bottom: 1px solid;
 }
 .shopping-basket > .p > span {
     color: #28343A;
-    font-size: 18px;
+    font-size: 28px;
     font-family: "GothamProBold";
     line-height: 70px;
 }
