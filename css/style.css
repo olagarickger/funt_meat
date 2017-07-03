@@ -1174,7 +1174,7 @@ font-size: 18px;
         margin-left: 0
     }
     .shop-cart {
-        margin: 15px auto;
+        margin-bottom: 15px;
     }
     .logo, .header {
         text-align: left;
