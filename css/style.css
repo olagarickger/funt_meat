@@ -72,6 +72,9 @@ h3 {
     background: none;
 }
 
+.red-menu-top {
+    display: none;
+}
 .red-menu > li {
     border-right: 1px solid #bc0400;
 }
@@ -804,10 +807,10 @@ border-bottom: 1px solid;
     line-height: 27px;
     margin-left: 10px;
 }
-.shopping-basket > div > .t > p {
+.shopping-basket > .t > p {
     color: #92A0A9;
 }
-.shopping-basket > div > .t > span {
+.shopping-basket > .t > span {
     color: #273238;
 }
 .delivery {
@@ -825,7 +828,7 @@ border-bottom: 1px solid;
     border-radius: 20px;
     margin-top: 32px;
 }
-.shopping-basket > div > .p > span {
+.shopping-basket > .p > span {
     color: #28343A;
     font-size: 18px;
     font-family: "GothamProBold";
@@ -835,7 +838,7 @@ border-bottom: 1px solid;
     font-size: 23px;
 
 }
-.shopping-basket > div > .c > a {
+.shopping-basket > .c > a {
     color: #B3B3B3;
     line-height: 70px;
 }
@@ -1151,6 +1154,43 @@ font-size: 18px;
     .products img {
         width: 100%;
     }
+    .basket_dropdown {
+        position: relative;
+        box-shadow: none;
+        border-top: 1px solid #9f9f9f;
+        border-bottom: 1px solid #9f9f9f;
+        margin: 0;
+        right: 0;
+        border-radius: 0;
+        width: 100%;
+        min-width: inherit;
+    }
+    .basket_dropdown .angle {
+        display: none;
+    }
+    .shopping-basket > div {
+        min-height: 80px;
+    }
+    .shopping-basket .c {
+        text-align: inherit;
+        display: block;
+        margin-top: 0;
+        margin-left: 0
+    }
+    .shop-cart {
+        margin-bottom: 15px;
+    }
+    .logo, .header {
+        text-align: left;
+    }
+    .logo > img {
+        margin-bottom: 15px;
+    }
+    .search-top {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
 }
 /* for xs */
 @media (max-width: 768px) {
@@ -1239,4 +1279,47 @@ font-size: 18px;
         float: none;
     }
 
+    .basket_dropdown {
+        position: relative;
+        box-shadow: none;
+        border-top: 1px solid #9f9f9f;
+        border-bottom: 1px solid #9f9f9f;
+        margin: 0;
+        right: 0;
+        border-radius: 0;
+        width: 100%;
+        min-width: inherit;
+    }
+    .basket_dropdown .angle {
+        display: none;
+    }
+    .shopping-basket > div {
+        min-height: 80px;
+    }
+    .shopping-basket .c {
+        text-align: inherit;
+        display: block;
+        margin-top: 0;
+        margin-left: 0
+    }
+    .shop-cart {
+        margin: 15px auto;
+    }
+    .red-menu {
+        display: none;
+    }
+    .red-menu-top {
+        display: block;
+    }
+    .logo, .header {
+        text-align: center;
+    }
+    .logo > img {
+        margin-bottom: 15px;
+    }
+    .search-top {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
 }
