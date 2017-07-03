@@ -308,6 +308,10 @@ h3 {
     color: #ababab;
     font-size: 19px;
     display: block;
+    font-family: "GothamProRegular";
+}
+.shopping-basket > .p > s > i {
+    font-family: "GothamProRegular";
 }
 .shopping-basket > .p {
     font-size: 32px;
@@ -334,7 +338,7 @@ h3 {
     font-family: "GothamProBold";
 }
 .order_price  p {
-    color: #92A0A9;
+    color:#252525;
     margin-left: 0px;
 }
 .order_price button {
@@ -814,7 +818,7 @@ border-bottom: 1px solid;
     font-family: "GothamProBold";
 }
 .delivery p {
-    color: #92A0A9;
+    color: #252525;
     margin-left: 0;
 }
 .delivery button {
